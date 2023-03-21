@@ -1,0 +1,22 @@
+body {
+    background-color: #1c2331; /* задний фон темно-синего цвета */
+    color: white; /* цвет текста белый */
+    font-size: 4rem; /* размер шрифта */
+    display: flex;
+    flex-direction: column; /* новое свойство */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* задаем высоту элемента, чтобы он занимал всю высоту экрана */
+  }
+  
+  button {
+    background-color: white;
+    color: #1c2331;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px; /* новое свойство */
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
